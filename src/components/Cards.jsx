@@ -87,7 +87,7 @@ function Cards(){
 
     return (
       <div className="cards">
-        <div className="cearch">
+        <div className="search">
           <input type="text" value={search} onChange={(e)=>setSearch(e.target.value)}/>
         </div>
         {cards.map(p=>(
